@@ -10,4 +10,10 @@ describe("Capitalize first letter of a string", () => {
     test("Capitalizes a sentence", () => {
         expect(capitalize("hello world")).toEqual("Hello World")
     })
+    test("Capitalizes a sentence with numbers and punctuations", () => {
+        expect(capitalize("hello world! i'm 99")).toEqual("Hello World! I'm 99")
+    })
+    test("Numbers", () => {
+        expect(capitalize(233).toEqual("Function accept only strings"))
+    })
 })
