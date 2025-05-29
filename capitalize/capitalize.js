@@ -1,4 +1,5 @@
 export function capitalize(string) {
+    if(typeof string !== "string") return "Function accepts only strings"
     let stringCapitalized = ""
     let words = string.split(" ")
 
