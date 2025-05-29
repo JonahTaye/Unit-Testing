@@ -14,6 +14,6 @@ describe("Capitalize first letter of a string", () => {
         expect(capitalize("hello world! i'm 99")).toEqual("Hello World! I'm 99")
     })
     test("Numbers", () => {
-        expect(capitalize(233).toEqual("Function accept only strings"))
+        expect(capitalize(233)).toEqual("Function accepts only strings")
     })
 })
