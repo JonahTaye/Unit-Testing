@@ -5,12 +5,12 @@ describe("Return the reverse of a string", () => {
         expect(reverseString("hello")).toEqual("olleh")
     })
     test("Reverse a sentence", () => {
-        expect(reverseString("hello world")).toEqual("dlorw olleh")
+        expect(reverseString("hello world")).toEqual("dlrow olleh")
     })
     test("Reverse a sentence while keeping capitalization", () => {
-        expect(reverseString("HeLLo WorLd")).toEqual("dLorW oLLeH")
+        expect(reverseString("HeLLo WorLd")).toEqual("dLroW oLLeH")
     })
     test("Reverse a sentence with punctuations", () => {
-        expect(reverseString("hell.o world!")).toEqual("!dlorw o.lleh")
+        expect(reverseString("hell.o world!")).toEqual("!dlrow o.lleh")
     })
 })
