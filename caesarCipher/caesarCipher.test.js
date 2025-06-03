@@ -8,7 +8,7 @@ describe("Caesar Cipher Function Test", () => {
         expect(caesarCipher("xyz", 3)).toEqual("abc")
     })
     test("Capital letter test", () => {
-        expect(caesarCipher("Hello", 3)).toEqual("KhOOr")
+        expect(caesarCipher("HeLLo", 3)).toEqual("KhOOr")
     })
     test("Punctuation mark test", () => {
         expect(caesarCipher("Hello, World!", 3)).toEqual("Khoor, Zruog!")
