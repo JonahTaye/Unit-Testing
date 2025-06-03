@@ -13,4 +13,7 @@ describe("Test calculator methods", () => {
     test("Divide two numbers", () => {
         expect(calculator.divide(8, 2)).toEqual(4)
     })
+    test("Divide by zero", () => {
+        expect(() => calculator.divide(8, 0)).toThrow("Can't divide by 0")
+    })
 })
