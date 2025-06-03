@@ -8,7 +8,7 @@ describe("Test calculator methods", () => {
         expect(calculator.subtract(3, 2)).toEqual(1)
     })
     test("Multiply two numbers", () => {
-        expect(calculator.multiply(2, 3)).toEqual(12)
+        expect(calculator.multiply(2, 3)).toEqual(6)
     })
     test("Divide two numbers", () => {
         expect(calculator.divide(8, 2)).toEqual(4)
