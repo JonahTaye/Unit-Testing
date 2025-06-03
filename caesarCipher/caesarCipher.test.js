@@ -1,3 +1,5 @@
+import { caesarCipher } from "./caesarCipher.js"
+
 describe("Caesar Cipher Function Test", () => {
     test("abc to def", () => {
         expect(caesarCipher("abc", 3)).toEqual("def")
